@@ -24,13 +24,6 @@ public class Plant {
 	}
 
 	// toString for Plant
-//	public String toString() {
-//		
-//		return "Der Name der Pflanze lautet " + this.name + ", sie ist " + this.size + " cm groﬂ, braucht "
-//				+ this.waterPerDay + " Liter Wasser am Tag, w‰chst " + this.growthPerDay + " cm pro Tag und wurde am "
-//				+ this.lastWateringDate + " um " + this.lastWateringTime + " Uhr gegossen.";
-//	}
-	
     public String toString() {
         String result = "Der Name der Pflanze lautet " + this.name + ", sie ist " + this.size + " cm groﬂ, braucht "
                 + this.waterPerDay + " Liter Wasser am Tag, w‰chst " + this.growthPerDay + " cm pro Tag";
